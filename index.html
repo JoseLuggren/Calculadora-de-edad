@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de edad</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel = "stylesheet" href = "css.css" />
+    <script type="text/javascript" src="j.js" ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id= "fondo">
+        <div id="contenedor" >
+            <div class="input">
+                <div id="columna_1">
+                    <label class="datos" id="dia">DÍA</label>
+                    <input class="datos_ingresos"  type="text" id="dia_input" onkeypress="calcular()"></input>
+                </div>
+                <div id="columna_2">
+                    <label class="datos"  id="mes">MES</label>
+                    <input class="datos_ingresos" type="text" id="mes_input" onkeypress="calcular()"></input>    
+                </div>
+                <div id="columna_3">
+                    <label class="datos" id="año">AÑO</label>
+                    <input class="datos_ingresos" type="text" id="año_input" onkeypress="calcular()"></input>    
+                </div>
+            </div>
+            <img src="1.jpg">
+            <div id="recibido">
+                <div id="columna_4"> 
+                    <label class="datos_recibidos_v" id="año_recibidos">--</label>
+                    <label class="datos_recibidos" id="años">Años</label>                      
+                </div>
+                <div id="columna_5">
+                    <label class="datos_recibidos_v" type="text" id="mes_recibidos">--</label>
+                    <label class="datos_recibidos"  id="meses">Meses</label>
+                        
+                </div>
+                <div id="columna_6">
+                    <label class="datos_recibidos_v"  type="text" id="dia_recibidos">--</label>
+                    <label class="datos_recibidos" id="dias">Días</label>
+                     
+                </div>
+                
+            </div>
+        </div>
+    </div>    
+</body>
+
+</html>
