@@ -6,8 +6,8 @@ function calcular(){
 
     if (event.key === "Enter") {
 
-    		var dia = $("#dia_input").val();
-    		dia = parseInt(dia);
+    	    var dia = $("#dia_input").val();
+    	    dia = parseInt(dia);
             var mes = $("#mes_input").val();
             mes = parseInt(mes);
             var año = $("#año_input").val();
@@ -22,7 +22,7 @@ function calcular(){
 	                success:function(data){
 
 	                    //$("#resultado").html("respuesta del servidor: " + data);
-	                    var datos_recibidos = JSON.parse(data);
+	                var datos_recibidos = JSON.parse(data);
                     	$("#año_recibidos").html( datos_recibidos ["años"]);
                     	$("#mes_recibidos").html(datos_recibidos["meses"]); 
                     	$("#dia_recibidos").html(datos_recibidos["dias"]); 
