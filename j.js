@@ -41,7 +41,7 @@ function calcular(){
     }
 }
 
-var IntervaloDeTiempo = setInterval(mandarMensaje, 180000);
+var IntervaloDeTiempo = setInterval(mandarMensaje, 60000);
 
 
 function mandarMensaje() {
